@@ -1,6 +1,6 @@
 package org.aws.samples.compute.name;
 
-import jakarta.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
 /**
@@ -10,11 +10,11 @@ import java.io.Serializable;
 public class Name implements Serializable {
     private static final long serialVersionUID = 1L;
     private int id;
-
+    
     private String name;
-
+    
     public Name() { }
-
+    
     public Name(String name) {
         this.name = name;
     }
