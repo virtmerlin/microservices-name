@@ -10,7 +10,9 @@ public class Names {
             new Name(4, "Howard"),
             new Name(5, "Raj"),
             new Name(6, "Amy"),
-            new Name(7, "Bernadette")
+            new Name(7, "Bernadette"),
+            new Name(8, "Fred"),
+            new Name(9, "Lamont")
             );
 
     public static Name[] findAll() {
