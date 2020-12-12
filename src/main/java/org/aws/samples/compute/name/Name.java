@@ -1,6 +1,6 @@
 package org.aws.samples.compute.name;
 
-import jakarta.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
 /**
